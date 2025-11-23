@@ -2,24 +2,12 @@
 
 Welcome to the **AI Voice Agents Challenge** by [murf.ai](https://murf.ai)!
 
-## About the Challenge
-
-We just launched **Murf Falcon** – the consistently fastest TTS API, and you're going to be among the first to test it out in ways never thought before!
-
-**Build 10 AI Voice Agents over the course of 10 Days** along with help from our devs and the community champs, and win rewards!
-
-### How It Works
-
-- One task to be provided everyday along with a GitHub repo for reference
-- Build a voice agent with specific personas and skills
-- Post on GitHub and share with the world on LinkedIn!
-
 ## Repository Structure
 
 This is a **monorepo** that contains both the backend and frontend for building voice agent applications. It's designed to be your starting point for each day's challenge task.
 
 ```
-falcon-tdova-nov25-livekit/
+Day-1-Get-Your-Starter-Voice-Agent-Running/
 ├── backend/          # LiveKit Agents backend with Murf Falcon TTS
 ├── frontend/         # React/Next.js frontend for voice interaction
 ├── start_app.sh      # Convenience script to start all services
