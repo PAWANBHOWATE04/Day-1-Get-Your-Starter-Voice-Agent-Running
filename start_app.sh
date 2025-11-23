@@ -1,9 +1,11 @@
-#!/bin/bash
+bash
+# Terminal 1 - LiveKit Server
+livekit-server --dev
 
-# Start all services in background
-livekit-server --dev &
-(cd backend && uv run python src/agent.py dev) &
-(cd frontend && pnpm dev) &
+# Terminal 2 - Backend Agent
+cd backend
+uv run python src/agent.py dev
 
-# Wait for all background jobs
-wait
+# Terminal 3 - Frontend
+cd frontend
+pnpm dev
