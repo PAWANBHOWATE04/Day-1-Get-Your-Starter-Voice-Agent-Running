@@ -1,4 +1,3 @@
-bash
 # Terminal 1 - LiveKit Server
 livekit-server --dev
 
